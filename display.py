@@ -25,7 +25,7 @@ class Display(QLineEdit):
         self.setTextMargins(*margins)
 
     def keyPressEvent(self, event: QKeyEvent) -> None:
-        text=event.text().strip(
+        text=event.text().strip()
         key=event.key(
         KEYS=Qt.Key
 
