@@ -21,7 +21,7 @@ class Display(QLineEdit):
         self.setStyleSheet(f'font-size: {BIG_FONT_SIZE}px;')
         self.setMinimumHeight(BIG_FONT_SIZE * 2)
         self.setMinimumWidth(MINIMUM_WIDHT)
-        self.setAlignment(Qt.AlignmentFlag.AlignRight
+        self.setAlignment(Qt.AlignmentFlag.AlignRight)
         self.setTextMargins(*margins
 
     def keyPressEvent(self, event: QKeyEvent) -> None
