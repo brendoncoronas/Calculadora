@@ -26,7 +26,7 @@ class Display(QLineEdit):
 
     def keyPressEvent(self, event: QKeyEvent) -> None:
         text=event.text().strip()
-        key=event.key(
+        key=event.key()
         KEYS=Qt.Key
 
         isEnter=key in [KEYS.Key_Enter, KEYS.Key_Return, KEYS.Key_Equal
