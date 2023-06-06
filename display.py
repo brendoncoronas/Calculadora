@@ -35,7 +35,7 @@ class Display(QLineEdit):
         isOperator=key in [
             KEYS.Key_Plus, KEYS.Key_Minus, KEYS.Key_Slash, KEYS.Key_Asterisk,
             KEYS.Key_P,
-
+        ]
 
         if isEnter
             self.eqPressed.emit(
