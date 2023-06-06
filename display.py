@@ -38,7 +38,7 @@ class Display(QLineEdit):
         ]
 
         if isEnter:
-            self.eqPressed.emit(
+            self.eqPressed.emit()
             return event.ignore(
 
         if isDelete
