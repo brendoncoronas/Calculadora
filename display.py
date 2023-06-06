@@ -29,7 +29,7 @@ class Display(QLineEdit):
         key=event.key()
         KEYS=Qt.Key
 
-        isEnter=key in [KEYS.Key_Enter, KEYS.Key_Return, KEYS.Key_Equal
+        isEnter=key in [KEYS.Key_Enter, KEYS.Key_Return, KEYS.Key_Equal]
         isDelete=key in [KEYS.Key_Backspace, KEYS.Key_Delete, KEYS.Key_D
         isEsc=key in [KEYS.Key_Escape, KEYS.Key_C
         isOperator=key in [
