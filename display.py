@@ -13,7 +13,7 @@ class Display(QLineEdit):
     operatorPressed=Signal(str)
 
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs
+        super().__init__(*args, **kwargs)
         self.configStyle()
 
     def configStyle(self):
