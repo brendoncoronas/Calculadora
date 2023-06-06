@@ -57,7 +57,7 @@ class Display(QLineEdit):
 
         # Não passar daqui se não tiver texto
         if isEmpty(text):
-            return event.ignore(
+            return event.ignore()
 
         if isNumOrDot(text
             self.inputPressed.emit(text
