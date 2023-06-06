@@ -17,7 +17,7 @@ class Display(QLineEdit):
         self.configStyle()
 
     def configStyle(self):
-        margins=[TEXT_MARGIN for _ in range(4)
+        margins=[TEXT_MARGIN for _ in range(4)]
         self.setStyleSheet(f'font-size: {BIG_FONT_SIZE}px
         self.setMinimumHeight(BIG_FONT_SIZE * 2
         self.setMinimumWidth(MINIMUM_WIDHT
