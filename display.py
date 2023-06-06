@@ -9,7 +9,7 @@ class Display(QLineEdit):
     eqPressed=Signal()
     delPressed=Signal()
     clearPressed=Signal()
-    inputPressed=Signal(str
+    inputPressed=Signal(str)
     operatorPressed=Signal(str
 
     def __init__(self, *args, **kwargs
