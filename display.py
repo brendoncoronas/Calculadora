@@ -53,7 +53,7 @@ class Display(QLineEdit):
             if text.lower() == 'p':
                 text= '^'
             self.operatorPressed.emit(text)
-            return event.ignore(
+            return event.ignore()
 
         # Não passar daqui se não tiver texto
         if isEmpty(text
