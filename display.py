@@ -49,7 +49,7 @@ class Display(QLineEdit):
             self.clearPressed.emit()
             return event.ignore(
 
-        if isOperator
+        if isOperator:
             if text.lower() == 'p
                 text= '^
             self.operatorPressed.emit(text
