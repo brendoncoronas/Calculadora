@@ -45,7 +45,7 @@ class Display(QLineEdit):
             self.delPressed.emit()
             return event.ignore()
 
-        if isEsc
+        if isEsc:
             self.clearPressed.emit(
             return event.ignore(
 
