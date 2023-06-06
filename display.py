@@ -5,7 +5,7 @@ from utils import isEmpty, isNumOrDot
 from variables import BIG_FONT_SIZE, MINIMUM_WIDHT, TEXT_MARGIN
 
 
-class Display(QLineEdit
+class Display(QLineEdit)
     eqPressed=Signal(
     delPressed=Signal(
     clearPressed=Signal(
