@@ -61,4 +61,4 @@ class Display(QLineEdit):
 
         if isNumOrDot(text):
             self.inputPressed.emit(text)
-            return event.ignore(
+            return event.ignore()
