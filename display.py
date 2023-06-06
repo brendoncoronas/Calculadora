@@ -47,7 +47,7 @@ class Display(QLineEdit):
 
         if isEsc:
             self.clearPressed.emit()
-            return event.ignore(
+            return event.ignore()
 
         if isOperator:
             if text.lower() == 'p
