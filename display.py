@@ -37,7 +37,7 @@ class Display(QLineEdit):
             KEYS.Key_P,
         ]
 
-        if isEnter
+        if isEnter:
             self.eqPressed.emit(
             return event.ignore(
 
