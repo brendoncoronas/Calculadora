@@ -9,7 +9,7 @@ class MainWindow(QMainWindow):
         self.cw = QWidget()
         self.vLayout = QVBoxLayout()
         self.cw.setLayout(self.vLayout)
-        self.setCentralWidget(self.cw
+        self.setCentralWidget(self.cw)
 
         # Título da janela
         self.setWindowTitle Calculadora
