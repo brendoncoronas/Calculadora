@@ -15,7 +15,7 @@ qss = f """
         color: #fff;
         background: {DARKEST_PRIMARY_COLOR};
     }}    
-"    
+""    
 
 
 
