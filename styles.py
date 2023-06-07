@@ -2,7 +2,7 @@ import qdarktheme
 from variables import (DARKER_PRIMARY_COLOR, DARKEST_PRIMARY_COLOR,
                        PRIMARY_COLOR)
 
-qss = f
+qss = f """
     QPushButton[cssClass="specialButton"] {{
         color: #fff;
         background: {PRIMARY_COLOR
