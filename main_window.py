@@ -7,7 +7,7 @@ class MainWindow(QMainWindow):
 
         # Configurando o layout básico
         self.cw = QWidget()
-        self.vLayout = QVBoxLayout(
+        self.vLayout = QVBoxLayout()
         self.cw.setLayout(self.vLayout
         self.setCentralWidget(self.cw
 
