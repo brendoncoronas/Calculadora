@@ -31,5 +31,5 @@ def setupTheme():
                 "primary": f"{PRIMARY_COLOR}",
             },
         },
-        additional_qss=qs
+        additional_qss=qss
     )
