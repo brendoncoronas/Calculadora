@@ -8,7 +8,7 @@ class MainWindow(QMainWindow):
         # Configurando o layout básico
         self.cw = QWidget()
         self.vLayout = QVBoxLayout()
-        self.cw.setLayout(self.vLayout
+        self.cw.setLayout(self.vLayout)
         self.setCentralWidget(self.cw
 
         # Título da janela
