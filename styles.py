@@ -19,7 +19,7 @@ qss = f """
 
 
 
-def setupTheme()
+def setupTheme():
     qdarktheme.setup_theme(
         theme='dark
         corner_shape='rounded
