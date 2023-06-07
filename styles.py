@@ -28,7 +28,7 @@ def setupTheme():
                 "primary": f"{PRIMARY_COLOR}",
             },
             "[light]": {
-                "primary": f"{PRIMARY_COLOR
+                "primary": f"{PRIMARY_COLOR}
             }
         }
         additional_qss=
