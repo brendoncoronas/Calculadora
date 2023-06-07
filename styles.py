@@ -25,7 +25,7 @@ def setupTheme():
         corner_shape='rounded',
         custom_colors={
             "[dark]": {
-                "primary": f"{PRIMARY_COLOR}
+                "primary": f"{PRIMARY_COLOR}"
             },
             "[light]": {
                 "primary": f"{PRIMARY_COLOR
