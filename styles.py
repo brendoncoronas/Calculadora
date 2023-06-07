@@ -14,6 +14,7 @@ qss = f """
     QPushButton[cssClass="specialButton"]:pressed {{
         color: #fff;
         background: {DARKEST_PRIMARY_COLOR};
+    }    
     
 
 
