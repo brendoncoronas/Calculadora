@@ -14,7 +14,7 @@ class MainWindow(QMainWindow):
         # Título da janela
         self.setWindowTitle ('Calculadora')
 
-    def adjustFixedSize(self)
+    def adjustFixedSize(self):
         # Última coisa a ser feita
         self.adjustSize
         self.setFixedSize self.width(, self.height
