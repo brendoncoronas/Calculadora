@@ -30,6 +30,6 @@ def setupTheme():
             "[light]": {
                 "primary": f"{PRIMARY_COLOR}",
             },
-        }
+        },
         additional_qss=
     )
