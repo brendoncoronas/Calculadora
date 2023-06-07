@@ -6,7 +6,7 @@ qss = f """
     QPushButton[cssClass="specialButton"] {{
         color: #fff;
         background: {PRIMARY_COLOR};
-    }
+    }}
     QPushButton[cssClass="specialButton"]:hover {{
         color: #fff;
         background: {DARKER_PRIMARY_COLOR
