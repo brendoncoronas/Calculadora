@@ -6,7 +6,7 @@ class MainWindow(QMainWindow):
         super().__init__(parent, *args, **kwargs)
 
         # Configurando o layout básico
-        self.cw = QWidget
+        self.cw = QWidget(
         self.vLayout = QVBoxLayout
         self.cw.setLayout(self.vLayout
         self.setCentralWidget(self.cw
