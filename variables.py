@@ -1,4 +1,4 @@
-from pat
+from path
 
 ROOT_DIR = Path(__file__).parent
 FILES_DIR = ROOT_DIR / 'files'
