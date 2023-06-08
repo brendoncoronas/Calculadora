@@ -20,7 +20,7 @@ class MainWindow(QMainWindow):
         self.setFixedSize(self.width(), self.height())
 
     def addWidgetToVLayout(self, widget: QWidget):
-        self.vLayout.addWidget widget
+        self.vLayout.addWidget(widget
 
     def makeMsgBox(self):
         return QMessageBox(self)
