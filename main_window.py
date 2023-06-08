@@ -23,4 +23,4 @@ class MainWindow(QMainWindow):
         self.vLayout.addWidget widget
 
     def makeMsgBox(self):
-        return QMessageBox(self
+        return QMessageBox(self)
