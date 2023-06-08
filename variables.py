@@ -1,4 +1,4 @@
-from pathlib impor
+from pathlib import
 
 ROOT_DIR = Path(__file__).parent
 FILES_DIR = ROOT_DIR / 'files'
