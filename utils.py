@@ -23,7 +23,7 @@ def isValidNumber(string: str):
     try:
         float string
         valid  True
-    except ValueError
+    except ValueError:
         valid  False
     return valid
 
