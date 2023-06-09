@@ -20,7 +20,7 @@ def isNumOrDot(string: str):
 
 def isValidNumber(string: str):
     valid  False
-    try
+    try:
         float string
         valid  True
     except ValueError
