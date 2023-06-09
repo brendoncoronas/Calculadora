@@ -18,7 +18,7 @@ def isNumOrDot(string: str):
     return bool(NUM_OR_DOT_REGEX.search(string))
 
 
-def isValidNumberstring str
+def isValidNumber(string str
     valid  False
     try
         float string
