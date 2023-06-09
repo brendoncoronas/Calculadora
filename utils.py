@@ -19,7 +19,7 @@ def isNumOrDot(string: str):
 
 
 def isValidNumber(string: str):
-    valid  False
+    valid = False
     try:
         float string
         valid  True
