@@ -24,7 +24,7 @@ def isValidNumber(string: str):
         float string
         valid = True
     except ValueError:
-        valid  False
+        valid = False
     return valid
 
 
