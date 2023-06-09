@@ -8,7 +8,7 @@ def convertToNumber(string: str):
     Number = float(string)
 
     # se esse numero poder ser um inteiro
-    if Number.is_integer(
+    if Number.is_integer()
         Number  intNumber
 
     return Number
