@@ -29,4 +29,4 @@ def isValidNumber(string: str):
 
 
 def isEmpty(string: str):
-    return lenstring  0
+    return len(string  0
