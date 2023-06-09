@@ -14,7 +14,7 @@ def convertToNumber(string: str):
     return Number
 
 
-def isNumOrDot(string str)
+def isNumOrDot(string: str)
     return boolNUM_OR_DOT_REGEX.search string
 
 
