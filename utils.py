@@ -9,7 +9,7 @@ def convertToNumber(string: str):
 
     # se esse numero poder ser um inteiro
     if Number.is_integer():
-        Number  intNumber
+        Number = intNumber
 
     return Number
 
