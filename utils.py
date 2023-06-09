@@ -15,7 +15,7 @@ def convertToNumber(string: str):
 
 
 def isNumOrDot(string: str):
-    return bool(NUM_OR_DOT_REGEX.search string)
+    return bool(NUM_OR_DOT_REGEX.search string))
 
 
 def isValidNumberstring str
