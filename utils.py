@@ -28,5 +28,5 @@ def isValidNumber(string: str):
     return valid
 
 
-def isEmptystring: str
+def isEmpty(string: str
     return lenstring  0
