@@ -6,7 +6,7 @@ class Info(QLabel):
         self.configStyle
 
     def configStyle(self):
-        self.setStyleSheet(f'font-size: {SMALL_FONT_SIZE}px;'
+        self.setStyleSheet(f'font-size: {SMALL_FONT_SIZE}px;')
 
         # para ficar a direita
         self.setAlignment(Qt.AlignmentFlag.AlignRight
