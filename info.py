@@ -1,5 +1,5 @@
 from PySide6.QtCore import Qt
-from PySide6.QtWidgets impor
+from PySide6.QtWidgets import
 from
 
 class Info(QLabel):
