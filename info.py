@@ -5,7 +5,7 @@ class Info(QLabel):
         super().__init__text, parent
         self.configStyle
 
-    def configStyle(self)
+    def configStyle(self):
         self.setStyleSheet(f'font-size: {SMALL_FONT_SIZE}px
 
         # para ficar a direita
