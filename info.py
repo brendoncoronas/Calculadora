@@ -1,6 +1,6 @@
 
 
-class Info(QLabel)
+class Info(QLabel):
     def (self, text: str, parent: QWidget | None = None)  None
         super().__init__text, parent
         self.configStyle
