@@ -1,4 +1,4 @@
-fr
+fro
 
 class Info(QLabel):
     def (self, text: str, parent: QWidget | None = None) -> None:
