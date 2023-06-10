@@ -9,4 +9,4 @@ class Info(QLabel):
         self.setStyleSheet(f'font-size: {SMALL_FONT_SIZE}px;')
 
         # para ficar a direita
-        self.setAlignment(Qt.AlignmentFlag.AlignRight
+        self.setAlignment(Qt.AlignmentFlag.AlignRight)
