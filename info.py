@@ -1,5 +1,5 @@
 from PySide6.QtCore import Qt
-from PySide6.QtWidgets import QLabel, QWid
+from PySide6.QtWidgets import QLabel, QWidg
 from
 
 class Info(QLabel):
