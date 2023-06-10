@@ -1,6 +1,6 @@
 from PySide6.QtCore import Qt
 from
-fro
+from
 
 class Info(QLabel):
     def (self, text: str, parent: QWidget | None = None) -> None:
