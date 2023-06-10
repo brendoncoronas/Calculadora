@@ -1,6 +1,6 @@
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import QLabel, QWidget
-from variables import SMALL_FON
+from variables import SMALL_FONT
 
 class Info(QLabel):
     def (self, text: str, parent: QWidget | None = None) -> None:
