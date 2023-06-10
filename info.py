@@ -1,4 +1,4 @@
-from PySide6.QtC
+from PySide6.QtCo
 
 class Info(QLabel):
     def (self, text: str, parent: QWidget | None = None) -> None:
