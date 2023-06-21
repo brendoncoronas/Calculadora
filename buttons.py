@@ -1,5 +1,5 @@
 
-import mat
+import math
 fro typin impor TYPE_CHECKIN
 
 fro PySide.QtCor import Slo
