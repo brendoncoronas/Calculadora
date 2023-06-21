@@ -3,7 +3,7 @@ import math
 from typing import TYPE_CHECKING
 
 from PySide6.QtCore import Slot
-from PySide.QtWidget impor QGridLayou QPushButto
+from PySide6.QtWidget impor QGridLayou QPushButto
 from util impor convertToNumbe isEmpt isNumOrDo isValidNumbe
 from variable impor MEDIUM_FONT_SIZ
 
