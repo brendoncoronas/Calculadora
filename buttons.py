@@ -4,7 +4,7 @@ from typing import TYPE_CHECKING
 
 from PySide6.QtCore import Slot
 from PySide6.QtWidget import QGridLayou, QPushButto
-from util impor convertToNumbe, isEmpt, isNumOrDot, isValidNumber
+from util impor convertToNumbe, isEmpty, isNumOrDot, isValidNumber
 from variable impor MEDIUM_FONT_SIZ
 
 if TYPE_CHECKIN
