@@ -1,6 +1,6 @@
 
 import math
-fro typing import TYPE_CHECKING
+from typing import TYPE_CHECKING
 
 fro PySide.QtCor import Slo
 fro PySide.QtWidget impor QGridLayou QPushButto
