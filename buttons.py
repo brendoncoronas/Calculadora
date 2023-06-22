@@ -19,7 +19,7 @@ class Button(QPushButton):
         self.configStyle() # type: ignore
 
     # definimos a fonte sem sobreescrever a fonte antiga
-    def configStyle(self)
+    def configStyle(self):
         font = self.font(
         font.setPixelSize(MEDIUM_FONT_SIZE
         self.setFont(font
