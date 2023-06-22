@@ -25,7 +25,7 @@ class Button(QPushButton):
         self.setFont(font)
 
         # estamos definindo a largura e a altura minima
-        self.setMinimumSize(75, 75
+        self.setMinimumSize(75, 75)
 
 
 class ButtonsGrid(QGridLayout
