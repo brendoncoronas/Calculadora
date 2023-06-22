@@ -50,7 +50,7 @@ class ButtonsGrid(QGridLayout):
         sel._equationInitialValue = 'Sua conta'
         sel._left = None
         sel._right = None
-        sel._op = Non
+        sel._op = None
 
         sel.equatio = sel._equationInitialValu  # type: ignore
         # assim que criar esse Grid o metodo sera executado
