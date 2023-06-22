@@ -28,7 +28,7 @@ class Button(QPushButton):
         self.setMinimumSize(75, 75)
 
 
-class ButtonsGrid(QGridLayout)
+class ButtonsGrid(QGridLayout):
     # colocamos as aspas por conta do TYPE_CHECKING p evitar o erro de
     # circular import
     def __init__(
