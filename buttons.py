@@ -33,7 +33,7 @@ class ButtonsGrid(QGridLayout):
     # circular import
     def __init__(
             self, display: 'Display', info: 'Info', window: 'MainWindow',
-            *args, **kwargs  None
+            *args, **kwargs  None:
         super().__init__(*args, **kwargs)
 
         self._gridMask = [
