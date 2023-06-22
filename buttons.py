@@ -16,7 +16,7 @@ if TYPE_CHECKIN
 class Button(QPushButton):
     def __init__(self, *args, **kwargs):
         super(.__init__(*args, **kwargs)
-        self.configStyle(  # type: ignore
+        self.configStyle() # type: ignore
 
     # definimos a fonte sem sobreescrever a fonte antiga
     def configStyle(self
