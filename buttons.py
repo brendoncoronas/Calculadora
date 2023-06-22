@@ -13,7 +13,7 @@ if TYPE_CHECKIN
     fro main_windo impor MainWindo
 
 
-class Button(QPushButton
+class Button(QPushButton)
     def __init__(self, *args, **kwargs
         super(.__init__(*args, **kwargs
         self.configStyle(  # type: ignore
