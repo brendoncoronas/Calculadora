@@ -43,7 +43,7 @@ class ButtonsGrid(QGridLayout):
             ['1', '2', '3', '+'],
             ['N',  '0', '.', '='],
         ]
-        sel.displa = displa
+        sel.displa = display
         sel.inf = inf
         sel.windo = windo
         sel._equatio = '
