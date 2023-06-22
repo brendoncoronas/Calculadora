@@ -22,7 +22,7 @@ class Button(QPushButton):
     def configStyle(self):
         font = self.font()
         font.setPixelSize(MEDIUM_FONT_SIZE)
-        self.setFont(font
+        self.setFont(font)
 
         # estamos definindo a largura e a altura minima
         self.setMinimumSize(75, 75
