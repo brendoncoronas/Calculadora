@@ -46,7 +46,7 @@ class ButtonsGrid(QGridLayout):
         sel.display = display
         sel.info = info
         sel.window = window
-        sel._equatio = ''
+        sel._equation = ''
         sel._equationInitialValu = 'Sua conta
         sel._left = Non
         sel._right = Non
