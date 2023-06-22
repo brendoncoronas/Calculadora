@@ -14,7 +14,7 @@ if TYPE_CHECKIN
 
 
 class Button(QPushButton):
-    def __init__(self, *args, **kwargs)
+    def __init__(self, *args, **kwargs):
         super(.__init__(*args, **kwargs
         self.configStyle(  # type: ignore
 
