@@ -41,7 +41,7 @@ class ButtonsGrid(QGridLayout):
             ['7', '8', '9', '*'],
             ['4', '5', '6', '-'],
             ['1', '2', '3', '+'],
-            ['N',  '0', '.', '=']
+            ['N',  '0', '.', '='],
         ]
         sel.displa = displa
         sel.inf = inf
