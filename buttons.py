@@ -54,7 +54,7 @@ class ButtonsGrid(QGridLayout):
 
         self.equation = self._equationInitialValue  # type: ignore
         # assim que criar esse Grid o metodo sera executado
-        self._makeGrid(
+        self._makeGrid()
 
     # criamos esse getter so para poder termos um setter
     @propert
