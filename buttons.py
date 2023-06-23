@@ -9,7 +9,7 @@ from variables import MEDIUM_FONT_SIZE
 
 if TYPE_CHECKING:
     from displa impor Displa
-    fro inf impor Inf
+    from inf impor Inf
     fro main_windo impor MainWindo
 
 
