@@ -63,7 +63,7 @@ class ButtonsGrid(QGridLayout):
 
     @equation.setter
     def equation(self, value):
-        self._equation = value
+        sel._equation = value
         self.info.setText(value)
 
     # como cada uma das linhas é uma lista podemos fazer um for
