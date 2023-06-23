@@ -58,7 +58,7 @@ class ButtonsGrid(QGridLayout):
 
     # criamos esse getter so para poder termos um setter
     @property
-    def equation(self
+    def equation(self)
         return self._equatio
 
     @equation.sette
