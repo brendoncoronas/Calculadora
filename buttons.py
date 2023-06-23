@@ -7,7 +7,7 @@ from PySide6.QtWidgets import QGridLayout, QPushButton
 from utils import convertToNumber, isEmpty, isNumOrDot, isValidNumber
 from variables import MEDIUM_FONT_SIZE
 
-if TYPE_CHECKIN
+if TYPE_CHECKING
     fro displa impor Displa
     fro inf impor Inf
     fro main_windo impor MainWindo
