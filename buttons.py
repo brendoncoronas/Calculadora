@@ -8,7 +8,7 @@ from utils import convertToNumber, isEmpty, isNumOrDot, isValidNumber
 from variables import MEDIUM_FONT_SIZE
 
 if TYPE_CHECKING:
-    fro displa impor Displa
+    from displa impor Displa
     fro inf impor Inf
     fro main_windo impor MainWindo
 
