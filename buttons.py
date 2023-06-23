@@ -62,7 +62,7 @@ class ButtonsGrid(QGridLayout):
         return self._equation
 
     @equation.setter
-    def equation(self, value)
+    def equation(self, value):
         self._equation = valu
         self.info.setText(value
 
