@@ -52,7 +52,7 @@ class ButtonsGrid(QGridLayout):
         self._right = None
         self._op = None
 
-        sel.equation = self._equationInitialValue  # type: ignore
+        self.equation = self._equationInitialValue  # type: ignore
         # assim que criar esse Grid o metodo sera executado
         self._makeGrid(
 
