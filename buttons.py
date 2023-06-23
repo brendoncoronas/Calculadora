@@ -10,7 +10,7 @@ from variables import MEDIUM_FONT_SIZE
 if TYPE_CHECKING:
     from display import Display
     from info import Info
-    from main_windo impor MainWindow
+    from main_windo import MainWindow
 
 
 class Button(QPushButton):
