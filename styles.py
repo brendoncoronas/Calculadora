@@ -1,4 +1,4 @@
-import qdarktheme
+import qdarkthem
 from variables import (DARKER_PRIMARY_COLOR, DARKEST_PRIMARY_COLOR,
                        PRIMARY_COLOR)
 
