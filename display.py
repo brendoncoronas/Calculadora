@@ -7,7 +7,7 @@ from variables import BIG_FONT_SIZE, MINIMUM_WIDHT, TEXT_MARGIN
 
 class Display(QLineEdit):
     eqPressed=Signal()
-    delPressed=Signal()
+    delPressed=Signal(
     clearPressed=Signal()
     inputPressed=Signal(str)
     operatorPressed=Signal(str)
