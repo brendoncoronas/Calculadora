@@ -1,4 +1,4 @@
-import re
+import r
 
 # numero ou ponto
 NUM_OR_DOT_REGEX = re.compile(r'^[0-9.]$')
