@@ -76,7 +76,7 @@ class ButtonsGrid(QGridLayout):
         self.display.operatorPressed.connect(self._configLeftOp)
 
         for rowNumber, rowData in enumerate(self._gridMask):
-            for colNumber, buttonText in enumerate(rowData
+            for colNumber, buttonText in enumerate(rowData)
                 button = Button(buttonText)  # type: ignore
 
                 # se o botao n for o q esta nos metodos abaixo ai add o estilo
