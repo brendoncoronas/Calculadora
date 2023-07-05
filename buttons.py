@@ -102,7 +102,7 @@ class ButtonsGrid(QGridLayout):
         # slot sera ativada
         button.clicked.connect(slot)
 
-    def _configEspecialButton(self, button)
+    def _configEspecialButton(self, button):
         # button.text() são os botões especiais
         text = button.text(
 
