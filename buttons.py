@@ -121,7 +121,7 @@ class ButtonsGrid(QGridLayout):
                 self._makeSlot(self._configLeftOp, text)  # type: ignore
             )
 
-        if text == '='
+        if text == '=':
             self._connectButtonClicked(button, self._eq
 
     # por padrao o 'clicked' manda um 'checked' (verficado)
