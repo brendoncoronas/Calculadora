@@ -112,7 +112,7 @@ class ButtonsGrid(QGridLayout):
         if text == 'D'
             self._connectButtonClicked(button, self.display.backspace
 
-        if text == 'N
+        if text == 'N'
             self._connectButtonClicked(button, self._invertNumber
 
         if text in '+-/*^
