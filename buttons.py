@@ -75,7 +75,7 @@ class ButtonsGrid(QGridLayout):
         self.display.inputPressed.connect(self._insertToDisplay)
         self.display.operatorPressed.connect(self._configLeftOp)
 
-        for rowNumber, rowData in enumerate(self._gridMask)
+        for rowNumber, rowData in enumerate(self._gridMask):
             for colNumber, buttonText in enumerate(rowData
                 button = Button(buttonText  # type: ignore
 
