@@ -107,7 +107,7 @@ class ButtonsGrid(QGridLayout):
         text = button.text()
 
         if text == 'C':
-            self._connectButtonClicked(button, self._clear
+            self._connectButtonClicked(button, self._clear)
 
         if text == 'D':
             self._connectButtonClicked(button, self.display.backspace
