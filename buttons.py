@@ -80,7 +80,7 @@ class ButtonsGrid(QGridLayout):
                 button = Button(buttonText)  # type: ignore
 
                 # se o botao n for o q esta nos metodos abaixo ai add o estilo
-                if not isNumOrDot(buttonText and not isEmpty(buttonText)
+                if not isNumOrDot(buttonText and not isEmpty(buttonText):
 
                     # estamos selecionando uma propiedade (cssClass) do nosso
                     # botao e  dando um valor para ela (specialButton)
