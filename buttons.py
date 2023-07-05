@@ -100,7 +100,7 @@ class ButtonsGrid(QGridLayout):
     def _connectButtonClicked(self, button, slot):
         # qnd clicarmos no numero na calculadora a logica do
         # slot sera ativada
-        button.clicked.connect(slot
+        button.clicked.connect(slot)
 
     def _configEspecialButton(self, button
         # button.text() são os botões especiais
