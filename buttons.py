@@ -97,7 +97,7 @@ class ButtonsGrid(QGridLayout):
                 slot = self._makeSlot(self._insertToDisplay, buttonText)
                 self._connectButtonClicked(button, slot)
 
-    def _connectButtonClicked(self, button, slot
+    def _connectButtonClicked(self, button, slot)
         # qnd clicarmos no numero na calculadora a logica do
         # slot sera ativada
         button.clicked.connect(slot
