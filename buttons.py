@@ -67,7 +67,7 @@ class ButtonsGrid(QGridLayout):
         self.info.setText(value)
 
     # como cada uma das linhas é uma lista podemos fazer um for
-    def _makeGrid(self)
+    def _makeGrid(self):
 
         self.display.eqPressed.connect(self._eq
         self.display.delPressed.connect(self._backspace
