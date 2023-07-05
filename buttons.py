@@ -94,7 +94,7 @@ class ButtonsGrid(QGridLayout):
                 # clicarmos no botao na calculadora ele apareça realmente
                 # no display DA calculadora
 
-                slot = self._makeSlot(self._insertToDisplay, buttonText
+                slot = self._makeSlot(self._insertToDisplay, buttonText)
                 self._connectButtonClicked(button, slot
 
     def _connectButtonClicked(self, button, slot
