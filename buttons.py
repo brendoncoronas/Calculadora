@@ -88,7 +88,7 @@ class ButtonsGrid(QGridLayout):
                     button.setProperty('cssClass', 'specialButton')
                     self._configEspecialButton(button)
 
-                self.addWidget(button, rowNumber, colNumber
+                self.addWidget(button, rowNumber, colNumber)
 
                 # daqui para baixo estamos fazendo a logica para qnd
                 # clicarmos no botao na calculadora ele apareça realmente
