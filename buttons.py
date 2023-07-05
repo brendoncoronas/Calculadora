@@ -122,7 +122,7 @@ class ButtonsGrid(QGridLayout):
             )
 
         if text == '=':
-            self._connectButtonClicked(button, self._eq
+            self._connectButtonClicked(button, self._eq)
 
     # por padrao o 'clicked' manda um 'checked' (verficado)
     # p dentro da nossa funçao
