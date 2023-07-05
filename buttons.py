@@ -69,7 +69,7 @@ class ButtonsGrid(QGridLayout):
     # como cada uma das linhas é uma lista podemos fazer um for
     def _makeGrid(self):
 
-        self.display.eqPressed.connect(self._eq
+        self.display.eqPressed.connect(self._eq)
         self.display.delPressed.connect(self._backspace
         self.display.clearPressed.connect(self._clear
         self.display.inputPressed.connect(self._insertToDisplay
