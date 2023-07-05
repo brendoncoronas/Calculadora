@@ -77,7 +77,7 @@ class ButtonsGrid(QGridLayout):
 
         for rowNumber, rowData in enumerate(self._gridMask):
             for colNumber, buttonText in enumerate(rowData
-                button = Button(buttonText  # type: ignore
+                button = Button(buttonText)  # type: ignore
 
                 # se o botao n for o q esta nos metodos abaixo ai add o estilo
                 if not isNumOrDot(buttonText and not isEmpty(buttonText
