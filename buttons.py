@@ -86,7 +86,7 @@ class ButtonsGrid(QGridLayout):
                     # botao e  dando um valor para ela (specialButton)
                     # preparamos o nosso terreno no modulo style
                     button.setProperty('cssClass', 'specialButton')
-                    self._configEspecialButton(button
+                    self._configEspecialButton(button)
 
                 self.addWidget(button, rowNumber, colNumber
 
