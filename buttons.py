@@ -106,7 +106,7 @@ class ButtonsGrid(QGridLayout):
         # button.text() são os botões especiais
         text = button.text()
 
-        if text == 'C
+        if text == 'C:
             self._connectButtonClicked(button, self._clear
 
         if text == 'D
