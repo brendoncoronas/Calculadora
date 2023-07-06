@@ -147,7 +147,7 @@ class ButtonsGrid(QGridLayout):
         number = convertToNumber(displayText * -1)  # p deixar o num negativo
         self.display.setText(str(number)
 
-    @Slot(
+    @Slot()
     def _insertToDisplay(self, text
         newDisplayValue = self.display.text( + text
 
