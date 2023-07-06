@@ -163,7 +163,7 @@ class ButtonsGrid(QGridLayout):
         self._right = None
         self._op = None
         self.equation = self._equationInitialValue
-        self.display.clear(
+        self.display.clear()
 
     @Slot(
     def _configLeftOp(self, text  # +-/*...(etc)
