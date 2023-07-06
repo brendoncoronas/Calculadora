@@ -141,7 +141,7 @@ class ButtonsGrid(QGridLayout):
     def _invertNumber(self):
         displayText = self.display.text()
 
-        if not isValidNumber(displayText
+        if not isValidNumber(displayText)
             return
 
         number = convertToNumber(displayText * -1  # p deixar o num negativo
