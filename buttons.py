@@ -155,7 +155,7 @@ class ButtonsGrid(QGridLayout):
             return
 
         self.display.insert(text)
-        self.display.setFocus(
+        self.display.setFocus()
 
     @Slot(
     def _clear(self
