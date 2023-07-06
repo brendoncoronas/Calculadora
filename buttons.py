@@ -138,7 +138,7 @@ class ButtonsGrid(QGridLayout):
         return realSlot
 
     @Slot()
-    def _invertNumber(self)
+    def _invertNumber(self):
         displayText = self.display.text(
 
         if not isValidNumber(displayText
