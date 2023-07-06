@@ -165,7 +165,7 @@ class ButtonsGrid(QGridLayout):
         self.equation = self._equationInitialValue
         self.display.clear()
 
-    @Slot(
+    @Slot()
     def _configLeftOp(self, text  # +-/*...(etc)
         # pegamos o texto q esta no display
         displayText = self.display.text(  # devera ser meu numero da _left
