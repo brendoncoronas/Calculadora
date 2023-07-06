@@ -135,7 +135,7 @@ class ButtonsGrid(QGridLayout):
         @Slot(bool)
         def realSlot(_):
             func(*args, **kwargs)
-        return realSlo
+        return realSlot
 
     @Slot()
     def _invertNumber(self
