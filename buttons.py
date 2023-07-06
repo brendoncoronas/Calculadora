@@ -144,7 +144,7 @@ class ButtonsGrid(QGridLayout):
         if not isValidNumber(displayText):
             return
 
-        number = convertToNumber(displayText * -1  # p deixar o num negativo
+        number = convertToNumber(displayText * -1)  # p deixar o num negativo
         self.display.setText(str(number
 
     @Slot(
