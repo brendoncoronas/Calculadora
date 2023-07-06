@@ -137,7 +137,7 @@ class ButtonsGrid(QGridLayout):
             func(*args, **kwargs
         return realSlo
 
-    @Slot(
+    @Slot()
     def _invertNumber(self
         displayText = self.display.text(
 
