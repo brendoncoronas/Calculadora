@@ -131,7 +131,7 @@ class ButtonsGrid(QGridLayout):
     # slot
 
     @Slot()  # type: ignore
-    def _makeSlot(self, func, *args, **kwargs
+    def _makeSlot(self, func, *args, **kwargs)
         @Slot(bool
         def realSlot(_
             func(*args, **kwargs
