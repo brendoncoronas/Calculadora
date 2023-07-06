@@ -158,7 +158,7 @@ class ButtonsGrid(QGridLayout):
         self.display.setFocus()
 
     @Slot()
-    def _clear(self
+    def _clear(self)
         self._left = None
         self._right = None
         self._op = None
