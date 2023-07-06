@@ -149,7 +149,7 @@ class ButtonsGrid(QGridLayout):
 
     @Slot()
     def _insertToDisplay(self, text):
-        newDisplayValue = self.display.text( + text
+        newDisplayValue = self.display.text( + text)
 
         if not isValidNumber(newDisplayValue
             return
