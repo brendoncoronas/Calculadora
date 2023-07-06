@@ -154,7 +154,7 @@ class ButtonsGrid(QGridLayout):
         if not isValidNumber(newDisplayValue):
             return
 
-        self.display.insert(text
+        self.display.insert(text)
         self.display.setFocus(
 
     @Slot(
