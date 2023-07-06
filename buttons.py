@@ -168,7 +168,7 @@ class ButtonsGrid(QGridLayout):
     @Slot()
     def _configLeftOp(self, text):  # +-/*...(etc)
         # pegamos o texto q esta no display
-        displayText = self.display.text(  # devera ser meu numero da _left
+        displayText = self.display.text()  # devera ser meu numero da _left
         self.display.clear( # limpa o display
 
         # se a pessoa clicou num operador sem
